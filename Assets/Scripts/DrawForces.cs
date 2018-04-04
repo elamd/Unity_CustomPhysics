@@ -17,7 +17,7 @@ public class DrawForces : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		forceVectorList = GetComponent<PhysicsEngine>().forceVectorList;
+		//forceVectorList = GetComponents<ApplyForce>();
 
 		lineRenderer = gameObject.AddComponent<LineRenderer>();
 		lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
